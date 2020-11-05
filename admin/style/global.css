@@ -1,0 +1,226 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	padding:0;
+	margin:0 auto;	
+}
+
+body {
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:11px;
+	color:#666;
+	
+}
+
+#page {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	border: 1px solid #DDD;
+	width: 1200px;
+}
+
+#page2 {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	width: 1000px;
+}
+
+#banner {
+	text-align: center;
+	margin-bottom: 2px;
+	background-color: #4b4b4b;
+}
+
+#text-banner {
+	font-weight: bold;
+	padding: 20px;
+	color: #FFF;
+}
+
+
+#menu-wrapper {
+	margin-bottom: 2px;
+	background: #f9f9f9;
+}
+
+.menu-wrapper li {
+	float: left;
+	text-align: center;
+	display: block;
+	background-color:#35a2af;
+}
+
+.menu-wrapper li:hover {
+	float: left;
+	text-align: center;
+	display: block;
+	background-color:#85bfc6;
+}
+
+.menu-wrapper li a:link {
+	padding: 10px;
+	display: block;
+	text-decoration: none;
+	color: #FFF;
+}
+
+.menu-wrapper li a:visited {
+	padding: 10px;
+	display: block;
+	text-decoration: none;
+	color: #FFF;
+}
+
+#title {
+	text-align: center;
+	font-weight: bold;
+	padding: 8px;
+}
+
+#menu-side {
+	float: left;
+	margin-bottom: 2px;
+	background: #f9f9f9;
+	width: 200px;
+}
+
+.menu-side li {  
+	width: 200px;
+	display: block;
+	border-bottom: 1px dashed #DDD;
+}
+
+.menu-side li:hover {  
+	display: block;
+	background: #ececec;
+}
+
+.menu-side li a:link {
+	display: block;
+	padding: 8px;
+	text-decoration: none;
+	color: #666;
+}
+
+.menu-side li a:visited {
+	display: block;
+	padding: 8px;
+	text-decoration: none;
+	color: #666;
+}
+
+#content {
+	padding: 10px;
+	width: 975px;
+	float: right;
+	border: 1px solid #f9f9f9;
+	margin-bottom: 2px;
+}
+
+.menu-child {
+	background: #f9f9f9;
+}
+
+.menu-child li {
+	display: block;
+	float: left;
+	background-color:#35a2af;
+}
+
+.menu-child li:hover {
+	background-color:#85bfc6;
+}
+
+.menu-child li a:link {
+	display: block;
+	padding: 8px;
+	text-decoration: none;
+	color:#FFF;
+}
+
+.menu-child li a:visited {
+	display: block;
+	padding: 8px;
+	text-decoration: none;
+	color:#FFF;
+}
+
+.mform-add {
+	padding: 10px;
+	background: #f9f9f9;
+	margin-top: 3px;
+}
+
+.mform {
+	padding: 10px;
+	background: #f9f9f9;
+	margin-top: 3px;
+}
+
+.mform a:link {
+	text-decoration: none;
+	color: #666;
+}
+
+.mform a:visited {
+	text-decoration: none;
+	color: #666;
+}
+
+.mform table {
+	text-align: center;
+	border-collapse: collapse;
+	border:1px solid #DDD;
+}
+
+.mform table td, th {
+	border:1px solid #DDD;
+	padding: 8px;
+}
+
+#footer {
+	text-align: center;
+	color:#FFF;
+	padding: 10px;
+	background-color: #4b4b4b;
+}
+
+#login-form {
+	margin-top: 18%;
+}
+
+.input {
+	border:1px solid #DDD;
+	padding: 5px;
+	font-family: verdana;
+	font-size:11px;
+	color:#666;
+}
+
+.textarea {
+	width: 300px;
+	resize:none;
+	border:1px solid #DDD;
+	padding: 5px;
+	font-family: verdana;
+	font-size:11px;
+	color:#666;
+}
+
+.button {
+	border:none;
+	padding: 5px;
+	cursor:pointer;
+	background-color:#35a2af;
+	color:#FFF;
+}
+
+.button:hover {
+	background-color:#85bfc6;
+}
+
+#header_msg {
+	background: #f9f9f9;
+	padding: 10px;
+}
